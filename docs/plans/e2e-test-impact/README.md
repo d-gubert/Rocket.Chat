@@ -19,6 +19,7 @@ the codebase facts every phase relies on, so phase executors don't need to redis
 | 4 | `04-coverage-map.md` | Per-spec coverage collection + test→source map built on `develop` runs | 2 |
 | 5 | `05-dynamic-selection.md` | PR-time selection driven by the coverage map + duration-based sharding | 3, 4 |
 | 6 | `06-observability-rollout.md` | Metrics, kill switch, rollout policy, optional vendor track | 1 |
+| 7 | `07-oss-tooling-research.md` | OSS tooling research: vetted libraries, exclusions, reference designs (read-only) | — |
 
 Phases 1 and 2 can be executed in parallel. Phase 6 items should be picked up incrementally
 alongside phases 1–5 (the kill switch must exist before phase 3 ships).
